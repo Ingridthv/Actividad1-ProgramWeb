@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="Stylesheet" href="css/Ejercicio12.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="Stylesheet">
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <h1>Calculadora</h1>
+        <p class="subtitulo">Conversor de Moneda MXN/USD</p>
+
+        <form class="formulario">
+            <div class="grupo-formulario">
+                <label for="mxn">Peso mexicano</label>
+                <input type="number" id="mxn" placeholder="Ej: 1 MXN">
+            </div>  
+            <div class="grupo-doble">
+                <div class="grupo-formulario">
+                    <label for="usd">Dólar estadounidense</label>
+                    <input type="number" id="usd" placeholder="0.058 USD" readonly>    
+                </div>   
+                <button type="button" onclick="calcular()">Convertir</button>
+            </div>
+        </form>
+    </div>
+    <script src="js/Ejercicio12.js"></script>
+</body>
+</html>
