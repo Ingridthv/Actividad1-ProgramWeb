@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="Stylesheet" href="css/Ejercicio14.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="Stylesheet">
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <h1>Operaciones</h1>
+        <p class="subtitulo">Calculos</p>
+
+        <form class="formulario">
+            <div class="grupo-formulario">
+                <label for="num">Ingresa varios números</label>
+                <input type="text" id="num" placeholder="Ej: 12345">
+            </div>  
+            <div class="grupo-doble">
+                <div class="grupo-formulario">
+                    <label for="nummay">Número mayor</label>
+                    <input type="text" id="nummay" placeholder="50" readonly>    
+                </div>  
+                <div class="grupo-formulario">
+                    <label for="nummen">Número menor</label>
+                    <input type="text" id="nummen" placeholder="2" readonly>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="prom">Promedio</label>
+                    <input type="text" id="prom" placeholder=" " readonly>
+                </div>                                 
+                <button type="button" onclick="calcular()">Calcular</button>
+            </div>
+        </form>
+    </div>
+    <script src="js/Ejercicio14.js"></script>
+</body>
+</html>
