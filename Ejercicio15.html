@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calificaciones de Estudiantes</title>
+    <link rel="stylesheet" href="css/Ejercicio15.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <h1>Estudiantes</h1>
+        <p class="subtitulo">Registro y calificaciones</p>
+ 
+        <form class="formulario">
+            <div class="grupo-doble">
+                <div class="grupo-formulario">
+                    <label for="nombre">Nombre del estudiante:</label>
+                    <input type="text" id="nombre" placeholder="Ej: Juan">
+                </div>
+                <div class="grupo-formulario">
+                    <label for="calificacion">Calificación:</label>
+                    <input type="text" id="calificacion" placeholder="Ej: 85">
+                </div>
+            </div>
+            <button type="button" onclick="agregarEstudiante()">Agregar estudiante</button>
+ 
+            <div class="grupo-formulario">
+                <label>Lista de estudiantes:</label>
+                <ul id="listaEstudiantes" class="lista-estudiantes"></ul>
+            </div>
+ 
+            <div class="grupo-doble">
+                <div class="grupo-formulario">
+                    <label for="promedio">Promedio:</label>
+                    <input type="text" id="promedio" placeholder=" " readonly>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="masAlta">Calificación más alta:</label>
+                    <input type="text" id="masAlta" placeholder=" " readonly>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="masBaja">Calificación más baja:</label>
+                    <input type="text" id="masBaja" placeholder=" " readonly>
+                </div>
+                <button type="button" onclick="calcular()">Calcular</button>
+            </div>
+        </form>
+    </div>
+    <script src="js/Ejercicio15.js"></script>
+</body>
+</html>
