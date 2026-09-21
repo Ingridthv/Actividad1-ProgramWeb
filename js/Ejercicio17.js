@@ -1,4 +1,3 @@
-
 function obtenerTareas() {
     const datos = localStorage.getItem('tareas');
     return datos ? JSON.parse(datos) : [];
@@ -8,7 +7,6 @@ const manejarTareas = (function () {
     let tareas = obtenerTareas();
 
     function guardarEnStorage() {
- 
         localStorage.setItem('tareas', JSON.stringify(tareas));
     }
 
