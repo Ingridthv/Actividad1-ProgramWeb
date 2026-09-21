@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 :root {
     --color-primario: #0f1111;
     --color-secundario: #ebe7b1;
@@ -57,64 +56,4 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-=======
-:root {
-    --color-primario: #0f1111;
-    --color-secundario: #ebe7b1;
-    --color-fondo: #f6f4f7;
-    --color-texto: #050813;
-    --color-borde: #f8f8f8;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    font-family: 'Inter', sans-serif;
-    background-color: var(--color-fondo);
-    color: var(--color-texto);
-    line-height: 1.6;
-    padding: 15px 20px;
-}
-.contenedor-formulario {
-    max-width: 500px;
-    margin: 0 auto;
-    background: rgb(230, 198, 223);
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-}
-h1 {
-    font-size: 28px;
-    color: var(--color-primario);
-    margin-bottom: 8px;
-}
-.subtitulo {
-    color: #080808;
-    margin-bottom: 30px;
-}
-.grupo-formulario {
-    margin-bottom: 20px;
-}
-input, textarea {
-    width: 100%;
-    padding: 3px 9px;
-    border: 1px solid var(--color-borde);
-    border-radius: 8px;
-    transition: all 0.3s;
-}
-button {
-    background-color: var(--color-primario);
-    color: rgb(220, 177, 221);
-    border: none;
-    padding: 14px 24px;
-    border-radius: 8px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background 0.3s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
->>>>>>> f2be3890d9fe38831b29f6b37fe6c35ff83d2037
 }
